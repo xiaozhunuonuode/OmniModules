@@ -6,10 +6,10 @@
       "Name": "石之家自动签到",
       "Author": "小朱诺诺的",
       "Description": "启用模块后自动签到并领取当月可领奖励，当天完成即停止联网。停用模块即可停止。",
-      "Version": "1.0.0",
-      "MinimumOmniVersion": "1.1.3.0",
-      "File": "Modules/1.0.0/OmniRisingStonesModule.dll",
-      "Sha256": "17F30806E60456B1D59EF907B72C7F1BACD75A771EBCF6748A246DB7BC0ED70F"
+      "Version": "1.0.3",
+      "MinimumOmniVersion": "1.1.3.3",
+      "File": "Modules/1.0.3/OmniRisingStonesModule.dll",
+      "Sha256": "092E065F53D35ADDAC0F2E3655A5FDCB54CE34A8EBACF5AFDEC33DEB09C0C74F"
     }
   ]
 }
