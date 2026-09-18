@@ -2,9 +2,9 @@
 
 适用于 Omni Toolbox 的在线模块仓库，不是独立 Dalamud 插件仓库。
 
-## 石之家每日签到 1.2.1
+## 石之家每日签到 1.2.2
 
-update v1.2.1：通知设置新增 API URL“显示原文／隐藏”按钮，默认隐藏，保留原有加密保存与每日汇总规则。
+update v1.2.2：通知设置底部新增“测试发送”按钮，一键检查 Server酱配置并显示结果，保留 API URL 显隐与每日汇总规则。
 
 - 保存多个账号，分别启用、暂停、备注和更新登录；自动签到与领奖串行处理。
 - 账号卡片默认收起，点击名字或箭头展开；常驻显示状态与启用开关。添加／更新登录轻微强调，移除使用柔和警示色。
@@ -44,6 +44,8 @@ https://github.com/xiaozhunuonuode/OmniModules
 
 Server酱配置参考[官方使用说明](https://doc.sc3.ft07.com/zh/serverchan3)。API URL 含推送密钥，输入框默认掩码显示；点击标题右侧“显示原文”查看，再点“隐藏”恢复掩码。显示状态不保存，停用或重新加载模块后恢复隐藏。地址仍使用当前 Windows 用户 DPAPI 加密保存，切换不改变通知规则；显示时注意截图／直播，请勿分享。
 
+填好地址后，点击底部“测试发送”即可向当前输入的地址发送一条“石之家通知测试”。无需开启每日通知，也不要求先添加账号；测试不触发签到、不占模块每日汇总次数，但属于 Server酱的一次发送。发送中按钮暂时禁用，最多等待十秒，结果在下方显示一行。出现“服务已接收，请查看手机通知”后请检查接收端；失败时检查地址或网络后可再点，不会自动重试。停用模块、关闭通知或提交地址修改会取消未完成测试并清除旧测试反馈，已发出的通知无法撤回。
+
 ### 升级与数据
 
 公开入口仍为 `RisingStonesAutoCheckIn`，显示名称“石之家每日签到”。首次没有新配置时，自动从 `LocalModules/RisingStonesAutoCheckIn.json` 迁入 `LocalModules/RisingStonesAccounts.json`，保留原账号登录资料和处理记录，无需重新导入。旧文件保留且不修改，新文件存在时不会重复迁移；新文件损坏时停止读取，不用旧记录覆盖。
@@ -62,12 +64,12 @@ Server酱配置参考[官方使用说明](https://doc.sc3.ft07.com/zh/serverchan
 
 ### 验证范围
 
-发布前重新执行 **4368 项离线功能检查、176 项静态接线检查、9354 项原生 ImGui 布局／交互检查**；严格 Release 构建为零警告、零错误。68张合成预览覆盖宽窄窗口、150%字体、明暗及合成橄榄主题，检查折叠、URL显隐、输入提交、分页和缩放时状态保持。
+发布前重新执行 **4391 项离线功能检查、184 项静态接线检查、10369 项原生 ImGui 布局／交互检查**；严格 Release 构建为零警告、零错误。68张合成预览覆盖宽窄窗口、150%字体、明暗及合成橄榄主题，检查折叠、URL显隐、输入提交、测试按钮禁用与单次点击、分页和缩放时状态保持。
 
 这些检查使用合成账号和响应，没有执行真实网站签到／领奖，也不代表完整的游戏内或线上迁移实测。
 
 ## 发布文件
 
-当前文件为 `Modules/1.2.1/OmniRisingStonesModule.dll`，版本 **1.2.1**；SHA256 见根目录 `TreeHouseModules.json`。旧的 1.0.0、1.0.3、1.1.0、1.1.1、1.2.0 文件保留。
+当前文件为 `Modules/1.2.2/OmniRisingStonesModule.dll`，版本 **1.2.2**；SHA256 见根目录 `TreeHouseModules.json`。旧的 1.0.0、1.0.3、1.1.0、1.1.1、1.2.0、1.2.1 文件保留。
 
-格式与更新行为参考 [Omni 官方在线模块说明](https://github.com/YouShux/OmniToolbox.TreeHouseOnline)。模块使用宿主提供的程序集和系统 API，不附带宿主库、浏览器驱动或扩展。来源及许可见 [THIRD-PARTY-NOTICES](Modules/1.2.1/THIRD-PARTY-NOTICES.md)，许可正文也已嵌入 DLL。
+格式与更新行为参考 [Omni 官方在线模块说明](https://github.com/YouShux/OmniToolbox.TreeHouseOnline)。模块使用宿主提供的程序集和系统 API，不附带宿主库、浏览器驱动或扩展。来源及许可见 [THIRD-PARTY-NOTICES](Modules/1.2.2/THIRD-PARTY-NOTICES.md)，许可正文也已嵌入 DLL。

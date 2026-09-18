@@ -6,10 +6,10 @@
       "Name": "石之家每日签到",
       "Author": "小朱诺诺的",
       "Description": "多账号自动签到与领奖，每日统一汇总。",
-      "Version": "1.2.1",
+      "Version": "1.2.2",
       "MinimumOmniVersion": "1.1.4.4",
-      "File": "Modules/1.2.1/OmniRisingStonesModule.dll",
-      "Sha256": "ADDE014A22D9A3345A61E0DCF0844EEC9576452448D8241237A4730BB4475EDE"
+      "File": "Modules/1.2.2/OmniRisingStonesModule.dll",
+      "Sha256": "4FE13EF5B03D5032E1784290757CE9033C2F725850EA08C555C5B54EDE0452A7"
     }
   ]
 }
