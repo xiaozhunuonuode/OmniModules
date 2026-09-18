@@ -5,11 +5,11 @@
       "InternalName": "RisingStonesAutoCheckIn",
       "Name": "石之家每日签到",
       "Author": "小朱诺诺的",
-      "Description": "每日自动签到并领取当月奖励，登录后自动完成。",
-      "Version": "1.1.1",
+      "Description": "多账号自动签到与领奖，每日统一汇总。",
+      "Version": "1.2.0",
       "MinimumOmniVersion": "1.1.4.4",
-      "File": "Modules/1.1.1/OmniRisingStonesModule.dll",
-      "Sha256": "B04A004671CDAD0877A306581508C3EB9D0CC4C3628B84B2EEDE51C69869544E"
+      "File": "Modules/1.2.0/OmniRisingStonesModule.dll",
+      "Sha256": "918633E63A7EB2B9B56A60EB7291EA4177B978ADFB93E9538CE41FCA20101355"
     }
   ]
 }
