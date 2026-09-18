@@ -2,9 +2,9 @@
 
 适用于 Omni Toolbox 的在线模块仓库，不是独立 Dalamud 插件仓库。
 
-## 石之家每日签到 1.2.0
+## 石之家每日签到 1.2.1
 
-update v1.2.0：新增多账号签到与 Server酱每日汇总通知，优化可折叠账号卡片、双栏布局和按钮配色。
+update v1.2.1：通知设置新增 API URL“显示原文／隐藏”按钮，默认隐藏，保留原有加密保存与每日汇总规则。
 
 - 保存多个账号，分别启用、暂停、备注和更新登录；自动签到与领奖串行处理。
 - 账号卡片默认收起，点击名字或箭头展开；常驻显示状态与启用开关。添加／更新登录轻微强调，移除使用柔和警示色。
@@ -42,7 +42,7 @@ https://github.com/xiaozhunuonuode/OmniModules
 - 游戏聊天只显示简短摘要，不依赖推送开关。手机推送显示备注或账号编号，最多展开前24个账号，其余计入总数；不要在备注里写敏感内容。
 - 开启通知不会补发旧事件。发送失败不影响签到，也不会自动重发；服务端接收不保证手机已经显示。
 
-Server酱配置参考[官方使用说明](https://doc.sc3.ft07.com/zh/serverchan3)。API URL 含推送密钥，输入框掩码显示，并使用当前 Windows 用户 DPAPI 加密保存，请勿分享。
+Server酱配置参考[官方使用说明](https://doc.sc3.ft07.com/zh/serverchan3)。API URL 含推送密钥，输入框默认掩码显示；点击标题右侧“显示原文”查看，再点“隐藏”恢复掩码。显示状态不保存，停用或重新加载模块后恢复隐藏。地址仍使用当前 Windows 用户 DPAPI 加密保存，切换不改变通知规则；显示时注意截图／直播，请勿分享。
 
 ### 升级与数据
 
@@ -62,12 +62,12 @@ Server酱配置参考[官方使用说明](https://doc.sc3.ft07.com/zh/serverchan
 
 ### 验证范围
 
-发布前重新执行 **4368 项离线功能检查、174 项静态接线检查、8395 项原生 ImGui 布局／交互检查**；严格 Release 构建为零警告、零错误。66张合成预览覆盖宽窄窗口、150%字体、明暗及合成橄榄主题，检查折叠、输入提交、分页和缩放时状态保持。
+发布前重新执行 **4368 项离线功能检查、176 项静态接线检查、9354 项原生 ImGui 布局／交互检查**；严格 Release 构建为零警告、零错误。68张合成预览覆盖宽窄窗口、150%字体、明暗及合成橄榄主题，检查折叠、URL显隐、输入提交、分页和缩放时状态保持。
 
 这些检查使用合成账号和响应，没有执行真实网站签到／领奖，也不代表完整的游戏内或线上迁移实测。
 
 ## 发布文件
 
-当前文件为 `Modules/1.2.0/OmniRisingStonesModule.dll`，版本 **1.2.0**；SHA256 见根目录 `TreeHouseModules.json`。旧的 1.0.0、1.0.3、1.1.0、1.1.1 文件保留。
+当前文件为 `Modules/1.2.1/OmniRisingStonesModule.dll`，版本 **1.2.1**；SHA256 见根目录 `TreeHouseModules.json`。旧的 1.0.0、1.0.3、1.1.0、1.1.1、1.2.0 文件保留。
 
-格式与更新行为参考 [Omni 官方在线模块说明](https://github.com/YouShux/OmniToolbox.TreeHouseOnline)。模块使用宿主提供的程序集和系统 API，不附带宿主库、浏览器驱动或扩展。来源及许可见 [THIRD-PARTY-NOTICES](Modules/1.2.0/THIRD-PARTY-NOTICES.md)，许可正文也已嵌入 DLL。
+格式与更新行为参考 [Omni 官方在线模块说明](https://github.com/YouShux/OmniToolbox.TreeHouseOnline)。模块使用宿主提供的程序集和系统 API，不附带宿主库、浏览器驱动或扩展。来源及许可见 [THIRD-PARTY-NOTICES](Modules/1.2.1/THIRD-PARTY-NOTICES.md)，许可正文也已嵌入 DLL。
