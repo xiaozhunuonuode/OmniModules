@@ -3,13 +3,19 @@
   "Modules": [
     {
       "InternalName": "RisingStonesAutoCheckIn",
-      "Name": "石之家每日签到",
       "Author": "小朱诺诺的",
-      "Description": "多账号自动签到与领奖，每日统一汇总。",
-      "Version": "1.2.3",
-      "MinimumOmniVersion": "1.1.5.6",
-      "File": "Modules/1.2.3/OmniRisingStonesModule.dll",
-      "Sha256": "55F0D157C9267762B8764CFD24B14D2550E38E12568D98921FFC04A501517D59"
+      "RepositoryURL": "https://github.com/xiaozhunuonuode/OmniModules",
+      "Version": "1.3.0",
+      "ApiVersion": 1,
+      "MinimumOmniVersion": "1.1.8.2",
+      "File": "Modules/1.3.0/RisingStonesAutoCheckIn.dll",
+      "Sha256": "CBAECEAA1FCE5243BADA9DFBA43B85D70970EA1F6242F4A02FA19C196FEB3F5E",
+      "Localization": {
+        "Source": {
+          "Title": "石之家每日签到",
+          "Description": "多账号自动签到与领奖，每日统一汇总。"
+        }
+      }
     }
   ]
 }
