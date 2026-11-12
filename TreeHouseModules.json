@@ -5,11 +5,11 @@
       "InternalName": "RisingStonesAutoCheckIn",
       "Author": "小朱诺诺的",
       "RepositoryURL": "https://github.com/xiaozhunuonuode/OmniModules",
-      "Version": "1.3.0",
+      "Version": "1.3.1",
       "ApiVersion": 1,
       "MinimumOmniVersion": "1.1.8.2",
-      "File": "Modules/1.3.0/RisingStonesAutoCheckIn.dll",
-      "Sha256": "CBAECEAA1FCE5243BADA9DFBA43B85D70970EA1F6242F4A02FA19C196FEB3F5E",
+      "File": "Modules/1.3.1/RisingStonesAutoCheckIn.dll",
+      "Sha256": "75FE534519A4C1705E2BCF68EBA9BCCA43873699034590312095917A8D7E58B7",
       "Localization": {
         "Source": {
           "Title": "石之家每日签到",
